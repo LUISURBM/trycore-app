@@ -1,0 +1,67 @@
+{
+	"variables": [],
+	"info": {
+		"name": "Trycore-app",
+		"_postman_id": "d97b22fb-ef50-1857-bd9b-3c16a8974e3e",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Persons",
+			"description": "",
+			"item": [
+				{
+					"name": "get",
+					"request": {
+						"url": "https://8080-gold-quokka-l3ztlw2j.ws-us03.gitpod.io/persons",
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "post",
+					"request": {
+						"url": "https://8080-gold-quokka-l3ztlw2j.ws-us03.gitpod.io/persons",
+						"method": "POST",
+						"header": [],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Planet",
+			"description": "",
+			"item": [
+				{
+					"name": "get",
+					"request": {
+						"url": "https://8080-gold-quokka-l3ztlw2j.ws-us03.gitpod.io/planets",
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "post",
+					"request": {
+						"url": "https://8080-gold-quokka-l3ztlw2j.ws-us03.gitpod.io/planets",
+						"method": "POST",
+						"header": [],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
