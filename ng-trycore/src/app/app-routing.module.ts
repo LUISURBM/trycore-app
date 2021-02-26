@@ -7,9 +7,9 @@ import { PlanetFormComponent } from './planet-form/planet-form.component';
 
 const routes: Routes = [
   { path: 'persons', component: PersonListComponent },
-  { path: 'addperson', component: PersonFormComponent },
+  { path: 'viewperson/:name', component: PersonFormComponent },
   { path: 'planets', component: PlanetListComponent },
-  { path: 'addplanet', component: PlanetFormComponent }
+  { path: 'viewplanet/:name', component: PlanetFormComponent }
 ];
 
 @NgModule({
