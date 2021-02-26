@@ -7,15 +7,15 @@
           <th scope="col">#</th>
           <th scope="col">Nombre</th>
           <th scope="col">Contador</th>
-          <th scope="col">Email</th>
+          <th scope="col"></th>
         </tr>
       </thead>
       <tbody>
-        <tr *ngFor="let user of persons">
-          <td>{{ user.id }}</td>
-          <td>{{ user.firstName }}</td>
-          <td>{{ user.contador }}</td>
-          <td><a href="mailto:{{ user.firstName }}">{{ user.firstName }}</a></td>
+        <tr *ngFor="let person of persons">
+          <td>{{ person.id }}</td>
+          <td>{{ person.firstName }}</td>
+          <td>{{ person.contador }}</td>
+          <td><a [routerLink]="['/viewperson',{{person.firstName}}]" >Detalle</a></td>
         </tr>
       </tbody>
     </table>
